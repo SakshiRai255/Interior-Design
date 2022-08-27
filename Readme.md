@@ -12,6 +12,10 @@
 ### These images are realted to landing page
 
 ---
+## live-link (https://magnificent-jelly-00620b.netlify.app/)
+
+---
+
 
 ![Image](img/Screenshot%20(446).png)
 
