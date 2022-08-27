@@ -1,0 +1,239 @@
+/*-----------Navbar_Section--------------*/
+
+@media (max-width: 1320px) {
+  .list-item {
+    margin: 5px 15px;
+  }
+  .list-item a {
+    font-size: 20px;
+  }
+  hr {
+    width: 60%;
+    margin-top: 8px;
+  }
+}
+@media (max-width: 1200px) {
+  hr {
+    width: 64%;
+  }
+  .list-item a {
+    font-size: 18px;
+  }
+  .Phone-Number {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1080px) {
+  hr {
+    width: 65%;
+  }
+  .list-item a {
+    font-size: 16px;
+  }
+  .Phone-Number {
+    font-size: 13px;
+  }
+}
+@media (max-width: 910px) {
+  .logo {
+    top: 15px;
+    left: 45px;
+    font-size: 25px;
+  }
+  .call-icon {
+    margin-top: 15px;
+  }
+
+  .Phone-Number {
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 2px;
+  }
+  #navbar {
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    z-index: 1;
+  }
+
+  #btn,
+  #cancel {
+    margin-right: 20px;
+  }
+  #btn {
+    display: block;
+  }
+
+  #menu-list {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    top: 42px;
+    left: -100%;
+    transition: all 0.5s;
+    background-color: rgb(80, 79, 79);
+  }
+  .list-item {
+    line-height: 45px;
+    margin: 20px 10px;
+  }
+  .list-item a {
+    font-size: 22px;
+  }
+  hr {
+    display: none;
+  }
+
+  #check:checked ~ #menu-list {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+/*---------------Main_Heading--------------*/
+
+@media (max-width: 1320px) {
+  .main-heading {
+    top: 28vh;
+    left: 7vw;
+    width: 40vw;
+  }
+  .main-heading h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main-heading {
+    width: 45vw;
+  }
+  .card-section1 {
+    position: absolute;
+    left: 40vw;
+    top: 35vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .line-section2 {
+    top: 28vh;
+  }
+}
+@media (max-width: 975px) {
+  .main-heading h1 {
+    font-size: 40px;
+  }
+  .btn {
+    font-size: 20px;
+    margin-top: 60px;
+    padding: 8px 25px;
+  }
+  .line-section2 {
+    top: 30vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-section1 {
+    left: 47vw;
+    top: 60vh;
+  }
+  .card-section2 {
+    left: 78vw;
+    top: 32vh;
+  }
+  .box {
+    width: 15vw;
+    padding: 8px 10px;
+  }
+  .box-para {
+    margin: 3px 3px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .line-section2 {
+    top: 25vh;
+  }
+}
+
+@media (max-width: 785px) {
+  .main-heading h1 {
+    font-size: 30px;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 5px 18px;
+  }
+}
+@media (max-width: 680px) {
+  .main-heading h1 {
+    font-size: 25px;
+  }
+  .btn {
+    font-size: 15px;
+    margin-top: 60px;
+    padding: 5px 18px;
+  }
+}
+@media (max-width: 780px) {
+  .card-section1 {
+    left: 40vw;
+    top: 55vh;
+  }
+  .card-section2 {
+    left: 78vw;
+    top: 28vw;
+  }
+  .line-section2 {
+    top: 25vh;
+  }
+}
+@media (max-width: 600px) {
+  .box-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media (max-width: 510px) {
+  .Phone-Number {
+    font-size: 10px;
+  }
+  #btn,
+  #cancel {
+    margin-right: 5px;
+  }
+  #btn,
+#cancel {
+  font-size: 25px;  
+}
+.logo{
+  font-size: 15px;
+  top: 25px;
+}
+}
+
+@media (max-width: 510px) {
+  .card-section2 {
+    left: 70vw;
+    top: 20vh;
+  }
+  .box {
+    width: 18vw;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 380px) {
+  .box-icon {
+    height: 15px;
+    width: 15px;
+}
+}

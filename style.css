@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ------------Background-Image-----------------*/
+
+#navbar::before {
+  content: "";
+  position: absolute;
+  background: url("img/bg.png") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.logo {
+  position: absolute;
+  top: 60px;
+  left: 75px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ------------NavBar-----------------*/
+#navbar {
+  
+  display: flex;
+  justify-content: flex-end;
+}
+/* ------------Menu-Bar-----------------*/
+#menu-list {
+  display: flex;
+  list-style: none;
+  margin-top: 40px;
+}
+.list-item {
+  margin: 5px 25px;
+}
+.list-item a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Source Code Pro", monospace;
+  color: #fff;
+}
+.list-item a:hover{
+  color:  rgb(8, 250, 40);
+}
+
+#btn,
+#cancel {
+  font-size: 35px;
+  line-height: 80px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+/* ------------Phone-Section-----------------*/
+.call-icon {
+  margin: 10px 5px;
+  margin-top: 40px;
+  height: 30px;
+  width: 25px;
+  background-color: transparent;
+  filter: invert(100%);
+}
+
+.Phone-Number {
+  color: #fff;
+  font-size: 19px;
+  margin-right: 70px;
+  margin-top: 40px;
+  font-family: "Source Code Pro", monospace;
+}
+
+hr {
+  float: right;
+  width:61%;
+  height: 2px;
+  background-color: #fff;
+  margin-right: 60px;
+  margin-top: 25px;
+}
+/* --------------Main_Heading----------------------- */
+.main-heading {
+  position: absolute;
+  top: 30vh;
+  left: 8vw;
+  width: 40vw;
+}
+.main-heading h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+.btn {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
+  padding: 10px 30px;
+}
+
+/* --------------Box_Section----------------------- */
+
+.card-section1 {
+  position: absolute;
+  left: 40vw;
+  top: 62vh;
+}
+.card-section2 {
+  position: absolute;
+  left: 78vw;
+  top: 30vh;
+}
+.box {
+  width: 15vw;
+  padding: 10px 15px;
+  background-color: rgb(109, 108, 108);
+  /* background-color: rgb(37, 36, 36); */
+  opacity: 0.8;
+}
+.box-icon {
+  height: 30px;
+  width: 30px;
+  padding: 5px 30px;
+  margin: 10px 5px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.box-para {
+  margin: 5px 5px;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
+.line-section1 {
+  position: absolute;
+  top: 6vh;
+  left: 16.7vw;
+  width: 100px;
+  text-align: center;
+}
+.line-section2 {
+  position: absolute;
+  top: 25vh;
+  left: 11vw;
+  width: 40px;
+  text-align: center;
+}
+
+.horizontal-line {
+  height: 25px;
+  width: 95px;
+  filter: invert(100%);
+}
+.vertical-line {
+  height: 70px;
+  width: 30px;
+  filter: invert(100%);
+}
+
+.circle1 {
+  position: absolute;
+  top: 6px;
+  left: 85px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 6px 6px;
+}
+.circle2 {
+  position: absolute;
+  top: 68px;
+  right: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 6px 6px;
+}
