@@ -12,7 +12,7 @@
 ### Snapshots
 
 ---
-## live-link (https://magnificent-jelly-00620b.netlify.app/)
+## Deployed-link (https://my-interior-design.netlify.app/)
 
 ---
 
