@@ -1,5 +1,5 @@
 
-## This is my tenth landing page created for learning front end designing using HTML and CSS.
+## This is a landing page created for learning front end designing using HTML and CSS.
 
 ## This landing page is responsive.
 
@@ -9,7 +9,7 @@
 -   HTML
 -   CSS
 
-### These images are realted to landing page
+### Snapshots
 
 ---
 ## live-link (https://magnificent-jelly-00620b.netlify.app/)
